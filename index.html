@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danielle Lombard Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+       <nav>
+        <img src="Images/Danielle.png" class="logo">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+       </nav> 
+       <div class="header-text">
+        <p>FullStack Developer</p>
+        <h1>Hi, I'm <span>Danielle</span><br> from New jersey</h1>
+       </div>
+    </div>
+   </div> 
+  <!-------About------->
+   <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/myimage.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>Experienced IT Professional specializing in process improvement, system optimization, and software development. Expert in troubleshooting, system testing, and automation, with proficiency across various programming languages and user interfaces. Strong foundation in web development, command line, and shell scripting. Skilled in project management and data analysis, with a focus on client relations and API development.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                    <p class="tab-titles"onclick="opentab('education')"></p>Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Client Relations</span><br>Data Analysis</li>
+                        <li><span>Web/App Development</span><br>DGenerative AI</li>
+                        <li><span>UI/UX Fundamentals</span><br>Microsoft Operating Systems</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Path2Tech Full Stack Development</span><br>NPower September 2024</li>
+                        <li><span>Scrum Master Certificate</span><br>Scrum Alliance June 2022</li>
+                        <li><span>Bachelor of Science</span><br>The College of New Rochelle</li>
+                    </ul>
+                </div>
+                <div class="tab-contents">
+        </div>
+    </div>
+   </div>
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tablinks = document.getElementsByClassName("tab-contents");
+
+
+
+</script>
+</body>
+</html>
